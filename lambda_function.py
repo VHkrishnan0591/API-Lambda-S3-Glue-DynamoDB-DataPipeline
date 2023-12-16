@@ -41,8 +41,8 @@ def api_call_function(from_date1,to_date1):
 def writing_On_Amazon_S3(data,fromdate,todate):
     #Creating Session With Boto3.Create a new user with IAM policy as S3FullAccess
     session = boto3.Session(
-    aws_access_key_id='AKIAWLK7SBUFXCBUVMFB',
-    aws_secret_access_key='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'
+    aws_access_key_id='',
+    aws_secret_access_key=''
     )
 
     #Creating S3 Resource From the Session.
