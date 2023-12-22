@@ -68,7 +68,7 @@ def lambda_handler(event, context):
 
     # Connect to MongoDB Atlas cluster
     client = pymongo.MongoClient(
-        "mongodb+srv://Leo:Welcome-123@cluster0.aa7wqoc.mongodb.net/?retryWrites=true&w=majority"
+        "mongodb+srv://Leo:<password>@cluster0.aa7wqoc.mongodb.net/?retryWrites=true&w=majority"
     )
     #checking whether the database exists
     db_names = client.list_database_names()
